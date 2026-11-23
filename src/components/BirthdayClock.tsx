@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { birthday } from '@/data/site';
 function getRemaining() {
-  const ms = Math.max(0,new Date(birthday.dateISO).getTime()-Date.now());
+  const ms = Math.max(0,(birthday.dateISO ? new Date(birthday.dateISO).getTime() : Date.now())-Date.now());
   return { days:Math.floor(ms/86400000),hours:Math.floor(ms/3600000)%24,minutes:Math.floor(ms/60000)%60,seconds:Math.floor(ms/1000)%60,done:ms===0 };
 }
 export default function BirthdayClock() {

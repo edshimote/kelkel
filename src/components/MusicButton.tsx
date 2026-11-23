@@ -11,7 +11,7 @@ const MUSIC_VOLUME = 0.38;
 const INTRO_VOLUME = 0.09;
 const FADE_DURATION_MS = 1350;
 
-const MusicButton = forwardRef<MusicButtonHandle, Record<string, never>>(function MusicButton(_props, forwardedRef) {
+const MusicButton = forwardRef<MusicButtonHandle, Record<string, unknown>>(function MusicButton(_props, forwardedRef) {
   const audioRef = useRef<HTMLAudioElement>(null);
   const fadeFrameRef = useRef<number | null>(null);
   const [playing, setPlaying] = useState(false);

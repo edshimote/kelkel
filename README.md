@@ -22,3 +22,7 @@ npm run build
 Esta é a branch `replica-aniversario-amigo`, separada da `main`. **A main original permanece intacta.** Para um repositório totalmente independente, crie um novo repositório vazio e envie o conteúdo desta branch para ele. No Vercel, crie um projeto separado apontando para o novo repositório (ou configure a produção usando esta branch).
 
 As sete fotografias da Kelkel foram removidas do conteúdo desta branch e substituídas por placeholders ilustrados. Para privacidade completa e separação histórica, crie um repositório novo sem importar o histórico Git do original.
+
+## Personalizacao Bea
+
+A galeria agora tem 10 fotografias da Bea em public/photos/1.webp ate 10.webp, com metadados EXIF removidos na conversao. A carta continua assinada como 'seu amor', a ser trocada quando o nome dele for informado. A data continua personalizavel em src/data/site.ts.

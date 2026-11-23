@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
 export const metadata: Metadata = {
-  title: 'Nosso Infinito — Feliz Aniversário ♡',
-  description: 'Um universo romântico com animes, memórias e uma surpresa de aniversário atrasado.',
+  title: 'Bea — Nosso Infinito ♡',
+  description: 'Um universo romântico feito para a Bea. Feliz aniversário atrasado, meu amor.',
   icons: { icon: '/icon.svg' },
   robots: { index: false, follow: false },
 };

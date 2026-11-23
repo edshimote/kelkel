@@ -1,22 +1,25 @@
 /** Central de personalização: textos, fotos, links dos GIFs e data. */
 export const birthday = {
-  title: 'Nosso Infinito — Feliz Aniversário',
-  name: 'NOME DELA',
+  title: 'Bea — Nosso Infinito',
+  name: 'Bea',
   nickname: 'Meu Amor',
-  sender: 'NOME DELE',
+  sender: 'seu amor',
   dateISO: '', // Opcional: ex. '2026-11-10T00:00:00-03:00'; vazio mostra mensagem de aniversário atrasado
-  longDate: 'DATA DO ANIVERSÁRIO',
+  longDate: 'Feliz aniversário atrasado',
   shortDate: 'PARA SEMPRE',
 };
 
 export const photos = [
-  { id: 1, src: '/photos/1.svg', title: 'Meu lugar favorito', subtitle: 'Qualquer lugar fica melhor quando estou com você.', color: 'pink' },
-  { id: 2, src: '/photos/2.svg', title: 'Seu jeitinho', subtitle: 'São os detalhes que fazem você ser única.', color: 'violet' },
-  { id: 3, src: '/photos/3.svg', title: 'Seu olhar', subtitle: 'Eu encontraria o meu caminho só de olhar para você.', color: 'blue' },
-  { id: 4, src: '/photos/4.svg', title: 'Um dia de sol', subtitle: 'Você ilumina até os meus dias mais nublados.', color: 'gold' },
-  { id: 5, src: '/photos/5.svg', title: 'Seu brilho', subtitle: 'Tem alguma coisa no seu sorriso que muda tudo.', color: 'pink' },
-  { id: 6, src: '/photos/6.svg', title: 'Nós dois', subtitle: 'Se existir outra vida, espero te encontrar nela também.', color: 'violet' },
-  { id: 7, src: '/photos/7.svg', title: 'Minha pessoa', subtitle: 'De todas as pessoas, foi em você que meu coração encontrou casa.', color: 'rose' },
+  { id: 1, src: '/photos/1.webp', title: 'Seu olhar', subtitle: 'Tudo fica mais bonito quando penso em você.', color: 'pink' },
+  { id: 2, src: '/photos/2.webp', title: 'O seu jeitinho', subtitle: 'Cada detalhe seu faz meu coração sorrir.', color: 'violet' },
+  { id: 3, src: '/photos/3.webp', title: 'Mais uma lembrança', subtitle: 'Eu adoro colecionar pequenos momentos com você.', color: 'blue' },
+  { id: 4, src: '/photos/4.webp', title: 'Seu lado divertido', subtitle: 'A sua espontaneidade faz cada dia especial.', color: 'gold' },
+  { id: 5, src: '/photos/5.webp', title: 'Uma dose de fofura', subtitle: 'Até os momentos mais bobinhos viram memórias queridas.', color: 'pink' },
+  { id: 6, src: '/photos/6.webp', title: 'A beleza dos detalhes', subtitle: 'Não existe um único jeito de mostrar como você é especial.', color: 'violet' },
+  { id: 7, src: '/photos/7.webp', title: 'Minha estrela', subtitle: 'Você ilumina até as noites mais escuras.', color: 'rose' },
+  { id: 8, src: '/photos/8.webp', title: 'Seu brilho', subtitle: 'Se eu pudesse guardar um instante para sempre, guardaria um sorriso seu.', color: 'blue' },
+  { id: 9, src: '/photos/9.webp', title: 'A pequena Bea', subtitle: 'Cada capítulo da sua história ajudou a formar a pessoa incrível que você é.', color: 'pink' },
+  { id: 10, src: '/photos/10.webp', title: 'Um universo desenhado', subtitle: 'Ainda que fosse um anime, eu continuaria escolhendo você.', color: 'violet' },
 ] as const;
 
 // URLs diretas verificadas de páginas públicas no Tenor. Os vídeos podem ser substituídos
