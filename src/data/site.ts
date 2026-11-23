@@ -1,20 +1,22 @@
 /** Central de personalização: textos, fotos, links dos GIFs e data. */
 export const birthday = {
-  title: 'Kelkel — Nosso Infinito',
-  name: 'Kelkel',
-  nickname: 'Minha Princesa',
-  dateISO: '2026-11-06T00:00:00-03:00', // meia-noite em São Paulo
-  longDate: '06 de novembro de 2026',
+  title: 'Nosso Infinito — Feliz Aniversário',
+  name: 'NOME DELA',
+  nickname: 'Meu Amor',
+  sender: 'NOME DELE',
+  dateISO: '', // Opcional: ex. '2026-11-10T00:00:00-03:00'; vazio mostra mensagem de aniversário atrasado
+  longDate: 'DATA DO ANIVERSÁRIO',
+  shortDate: 'PARA SEMPRE',
 };
 
 export const photos = [
-  { id: 1, src: '/photos/1.webp', title: 'Meu lugar favorito', subtitle: 'Qualquer lugar fica melhor quando estou com você.', color: 'pink' },
-  { id: 2, src: '/photos/2.webp', title: 'Seu jeitinho', subtitle: 'São os detalhes que fazem você ser única.', color: 'violet' },
-  { id: 3, src: '/photos/3.webp', title: 'Seu olhar', subtitle: 'Eu encontraria o meu caminho só de olhar para você.', color: 'blue' },
-  { id: 4, src: '/photos/4.webp', title: 'Um dia de sol', subtitle: 'Você ilumina até os meus dias mais nublados.', color: 'gold' },
-  { id: 5, src: '/photos/5.webp', title: 'Seu brilho', subtitle: 'Tem alguma coisa no seu sorriso que muda tudo.', color: 'pink' },
-  { id: 6, src: '/photos/6.webp', title: 'Nós dois', subtitle: 'Se existir outra vida, espero te encontrar nela também.', color: 'violet' },
-  { id: 7, src: '/photos/7.webp', title: 'Minha pessoa', subtitle: 'De todas as pessoas, foi em você que meu coração encontrou casa.', color: 'rose' },
+  { id: 1, src: '/photos/1.svg', title: 'Meu lugar favorito', subtitle: 'Qualquer lugar fica melhor quando estou com você.', color: 'pink' },
+  { id: 2, src: '/photos/2.svg', title: 'Seu jeitinho', subtitle: 'São os detalhes que fazem você ser única.', color: 'violet' },
+  { id: 3, src: '/photos/3.svg', title: 'Seu olhar', subtitle: 'Eu encontraria o meu caminho só de olhar para você.', color: 'blue' },
+  { id: 4, src: '/photos/4.svg', title: 'Um dia de sol', subtitle: 'Você ilumina até os meus dias mais nublados.', color: 'gold' },
+  { id: 5, src: '/photos/5.svg', title: 'Seu brilho', subtitle: 'Tem alguma coisa no seu sorriso que muda tudo.', color: 'pink' },
+  { id: 6, src: '/photos/6.svg', title: 'Nós dois', subtitle: 'Se existir outra vida, espero te encontrar nela também.', color: 'violet' },
+  { id: 7, src: '/photos/7.svg', title: 'Minha pessoa', subtitle: 'De todas as pessoas, foi em você que meu coração encontrou casa.', color: 'rose' },
 ] as const;
 
 // URLs diretas verificadas de páginas públicas no Tenor. Os vídeos podem ser substituídos
@@ -31,12 +33,12 @@ export const gifs = {
 };
 
 export const letter = [
-  'Feliz aniversário, meu amor. ♡',
+  'Feliz aniversário atrasado, meu amor. ♡',
   'Eu poderia falar sobre todas as estrelas, todos os mundos e todos os universos que existem. Mas nenhum deles conseguiria explicar o quanto você é especial para mim.',
   'Quando penso em felicidade, penso no seu sorriso. Quando penso em um lugar seguro, penso no seu abraço. E quando penso no futuro, é você que eu espero encontrar em cada capítulo.',
   'Obrigado por ser você. Por existir. E por fazer parte da minha história.',
   'Eu te escolheria em qualquer realidade, em qualquer linha do tempo, em qualquer universo.',
-  'Feliz aniversário, minha princesa. Eu te amo. ♡',
+  'Mesmo depois do seu dia, eu continuo celebrando a sorte de ter você. Eu te amo. ♡',
 ];
 
 export const islands = [

@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
 export const metadata: Metadata = {
-  title: 'Kelkel — Nosso Infinito ♡',
-  description: 'Um universo inteiro, criado para você. Feliz aniversário, minha princesa.',
+  title: 'Nosso Infinito — Feliz Aniversário ♡',
+  description: 'Um universo romântico com animes, memórias e uma surpresa de aniversário atrasado.',
   icons: { icon: '/icon.svg' },
   robots: { index: false, follow: false },
 };

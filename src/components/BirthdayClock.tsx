@@ -8,7 +8,8 @@ function getRemaining() {
 export default function BirthdayClock() {
   const [time,setTime]=useState<ReturnType<typeof getRemaining>|null>(null);
   useEffect(()=>{setTime(getRemaining());const timer=window.setInterval(()=>setTime(getRemaining()),1000);return()=>window.clearInterval(timer);},[]);
-  if(!time) return <span className="clock-placeholder">06 • 11 • 2026</span>;
-  if(time.done) return <span className="clock-done">✦ O dia da minha princesa chegou ✦</span>;
+  if(!birthday.dateISO) return <span className="clock-done">✦ O seu dia passou, mas meu amor não tem data ♡ ✦</span>;
+  if(!time) return <span className="clock-placeholder">{birthday.longDate}</span>;
+  if(time.done) return <span className="clock-done">✦ Feliz aniversário atrasado, meu amor ♡ ✦</span>;
   return <div className="clock"><span>FALTAM</span>{[['dias',time.days],['horas',time.hours],['min',time.minutes],['seg',time.seconds]].map(([label,value])=><div className="clock-cell" key={label}><strong>{String(value).padStart(2,'0')}</strong><small>{label}</small></div>)}</div>;
 }
