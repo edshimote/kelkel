@@ -1,28 +1,25 @@
-# Nosso Infinito — réplica personalizável
+# Beatriz — Nosso Infinito
 
-Réplica do projeto **Kelkel — Nosso Infinito** para um novo presente de aniversário atrasado, mantendo o Sharingan interativo, Gojo/Jujutsu Kaisen, Kimetsu no Yaiba, Your Name, One Piece, mapa do tesouro, música, galeria e carta.
+Uma versão personalizada do site romântico Kelkel, preservando Sharingan do Sasuke, Jujutsu Kaisen/Gojo, Kimetsu no Yaiba, Your Name, One Piece, mapa com ilhas, galeria de fotos, música e carta animada.
 
-## Personalizar
+## Personalização concluída
+- Homenageada: Beatriz (Bea).
+- De: Eduardo.
+- Mensagem: Feliz aniversário, Beatriz.
+- Galeria: 10 fotos enviadas convertidas para WebP sem metadados EXIF em public/photos/1.webp a 10.webp, incluindo foto de infância e uma ilustração.
+- Sem data e sem contagem regressiva: o antigo relógio virou uma dedicatória.
+- Textos novos na abertura, nas seções de anime, nas dez legendas, no mapa, no fim e na carta.
 
-1. Abra `src/data/site.ts` e altere `birthday.name`, `birthday.nickname`, `birthday.sender`, `birthday.longDate`, `birthday.shortDate` e os textos de `letter` e `photos`. `dateISO` pode ficar vazio para o presente atrasado; se preenchido com data futura, reativa o contador.
-2. Troque as imagens `public/photos/1.svg` até `7.svg` por fotos do novo casal. **Mantenha o nome 1.svg etc.** se quiser não alterar o código; para fotos reais `.webp`, substitua as extensões nas referências de `src/data/site.ts` e `src/app/page.tsx`.
-3. Música: arquivo `public/audio/romantic.mp3`. GIFs de anime são links externos centralizados em `src/data/site.ts`.
-
-## Rodar
-
-```bash
-npm install
-npm run dev
+## Executar
+npm ci
 npm run typecheck
 npm run build
-```
+npm run dev
 
-## GitHub
+## Arquivos principais
+src/data/site.ts (nomes, galeria, carta, ilhas)
+src/app/page.tsx (seções e interações)
+src/components/LoveLetter.tsx (carta final)
+public/photos (imagens WebP)
 
-Esta é a branch `replica-aniversario-amigo`, separada da `main`. **A main original permanece intacta.** Para um repositório totalmente independente, crie um novo repositório vazio e envie o conteúdo desta branch para ele. No Vercel, crie um projeto separado apontando para o novo repositório (ou configure a produção usando esta branch).
-
-As sete fotografias da Kelkel foram removidas do conteúdo desta branch e substituídas por placeholders ilustrados. Para privacidade completa e separação histórica, crie um repositório novo sem importar o histórico Git do original.
-
-## Personalizacao Bea
-
-A galeria agora tem 10 fotografias da Bea em public/photos/1.webp ate 10.webp, com metadados EXIF removidos na conversao. A carta continua assinada como 'seu amor', a ser trocada quando o nome dele for informado. A data continua personalizavel em src/data/site.ts.
+Esta personalização está na branch replica-aniversario-amigo do repositório edshimote/kelkel. A main original permanece intacta. O repositório é público, portanto as fotos nesta branch também ficam públicas. Para maior privacidade, crie um repositório privado novo e sem o histórico antigo.
