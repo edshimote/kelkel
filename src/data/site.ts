@@ -37,7 +37,6 @@ export const letter = [
   'Eu pensei em muitas formas de te dar um presente especial. Mas nenhuma parecia suficiente para mostrar tudo o que você significa para mim. Então resolvi criar um pedacinho de universo onde cada detalhe me lembrasse você.',
   'Tem algo no seu olhar, no seu sorriso e nesse seu jeitinho tão seu que transforma coisas simples em momentos que eu gostaria de guardar para sempre. Até suas fotos mais engraçadinhas conseguem melhorar o meu dia.',
   'Eu gosto de pensar que ainda temos muitas histórias para viver. Não precisam ser aventuras grandiosas: eu quero os dias tranquilos, as conversas sem pressa, as risadas inesperadas e os abraços que fazem tudo parecer mais leve.',
-  'Se o Gojo tem o infinito, se a Mitsuri conhece a Respiração do Amor e se o Sharingan pode enxergar tantos detalhes, eu tenho uma certeza muito mais simples: em qualquer universo, meu coração ainda encontraria você.',
   'Quero ver seus sonhos ganhando forma, suas conquistas chegando e seu sorriso aparecendo cada vez mais. Quero estar ao seu lado para comemorar as coisas boas e te apoiar quando os dias não forem tão fáceis.',
   'Feliz aniversário, meu amor. Você merece todo o carinho do mundo e muito mais. Obrigado por ser a minha Bea. Eu te amo. ♡',
 ];
